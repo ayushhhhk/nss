@@ -1,0 +1,42 @@
+b{
+    color: blue;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-03{
+    display: flex; background-color: darkblue; width: 100%;  padding-left: 10px; margin-top: 50px; padding-bottom: 5px;
+}
+
+p.section-03{
+    color: white;
+}
+
+.section-04{
+    display: flex; background-color: red; width: 100%;   margin-top: 5px;  justify-content: space-between;
+}
+
+p.section-04{
+    color: white;
+}
+
+.slider {
+    width: 70%;
+    height: 580px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url('https://web.mitsgwalior.in/images/slider2/againnaacR.jpeg');
+    background-size: 100% 100%;
+    
+    animation: slider 9s infinite linear;
+  }
+
+  @keyframes slider{
+    0%{background-image: url(https://web.mitsgwalior.in/images/slider2/againnaacR.jpeg); background-size: 100% 100%;}
+    35%{background-image: url(https://mitsgwalior.in/login/central/NSS.jpg); background-size: 100% 100%;}
+    75%{background-image: url(https://web.mitsgwalior.in/images/speasyimagegallery/albums/1/images/299328521-10210347950172667-4469436405073889700-n.jpg); background-size: 100% 100%; }
+  }
